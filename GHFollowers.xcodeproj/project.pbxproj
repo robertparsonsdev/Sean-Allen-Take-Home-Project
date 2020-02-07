@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EE14E01923ECFB3A003E9567 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE14E01823ECFB3A003E9567 /* GFButton.swift */; };
 		EE14E01B23ECFE15003E9567 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE14E01A23ECFE15003E9567 /* GFTextField.swift */; };
+		EE14E01D23ED0AE0003E9567 /* FollowerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE14E01C23ED0AE0003E9567 /* FollowerListViewController.swift */; };
 		EE467B8D23EA80BD007C9FE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE467B8C23EA80BD007C9FE2 /* AppDelegate.swift */; };
 		EE467B8F23EA80BD007C9FE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE467B8E23EA80BD007C9FE2 /* SceneDelegate.swift */; };
 		EE467B9623EA80C0007C9FE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE467B9523EA80C0007C9FE2 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		EE14E01823ECFB3A003E9567 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		EE14E01A23ECFE15003E9567 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		EE14E01C23ED0AE0003E9567 /* FollowerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListViewController.swift; sourceTree = "<group>"; };
 		EE467B8923EA80BD007C9FE2 /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE467B8C23EA80BD007C9FE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE467B8E23EA80BD007C9FE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				EE467B9723EA80C0007C9FE2 /* LaunchScreen.storyboard */,
 				EE467B9A23EA80C0007C9FE2 /* Info.plist */,
 				EE467BA023EA8726007C9FE2 /* SearchViewController.swift */,
+				EE14E01C23ED0AE0003E9567 /* FollowerListViewController.swift */,
 				EE467BA223EA877C007C9FE2 /* FaveListViewController.swift */,
 			);
 			path = GHFollowers;
@@ -148,6 +151,7 @@
 				EE14E01B23ECFE15003E9567 /* GFTextField.swift in Sources */,
 				EE467BA323EA877C007C9FE2 /* FaveListViewController.swift in Sources */,
 				EE14E01923ECFB3A003E9567 /* GFButton.swift in Sources */,
+				EE14E01D23ED0AE0003E9567 /* FollowerListViewController.swift in Sources */,
 				EE467BA123EA8726007C9FE2 /* SearchViewController.swift in Sources */,
 				EE467B8D23EA80BD007C9FE2 /* AppDelegate.swift in Sources */,
 				EE467B8F23EA80BD007C9FE2 /* SceneDelegate.swift in Sources */,
