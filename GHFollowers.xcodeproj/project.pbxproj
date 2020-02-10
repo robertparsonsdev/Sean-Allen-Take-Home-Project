@@ -16,6 +16,9 @@
 		EE467B9923EA80C0007C9FE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE467B9723EA80C0007C9FE2 /* LaunchScreen.storyboard */; };
 		EE467BA123EA8726007C9FE2 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE467BA023EA8726007C9FE2 /* SearchViewController.swift */; };
 		EE467BA323EA877C007C9FE2 /* FaveListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE467BA223EA877C007C9FE2 /* FaveListViewController.swift */; };
+		EE705C2E23F0E32A00C20DE6 /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE705C2D23F0E32A00C20DE6 /* GFTitleLabel.swift */; };
+		EE705C3023F0E49100C20DE6 /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE705C2F23F0E49100C20DE6 /* GFBodyLabel.swift */; };
+		EE705C3223F0E56A00C20DE6 /* GFAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE705C3123F0E56A00C20DE6 /* GFAlertViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		EE467B9A23EA80C0007C9FE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE467BA023EA8726007C9FE2 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		EE467BA223EA877C007C9FE2 /* FaveListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaveListViewController.swift; sourceTree = "<group>"; };
+		EE705C2D23F0E32A00C20DE6 /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
+		EE705C2F23F0E49100C20DE6 /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
+		EE705C3123F0E56A00C20DE6 /* GFAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,16 +72,35 @@
 			children = (
 				EE467B8C23EA80BD007C9FE2 /* AppDelegate.swift */,
 				EE467B8E23EA80BD007C9FE2 /* SceneDelegate.swift */,
-				EE14E01823ECFB3A003E9567 /* GFButton.swift */,
-				EE14E01A23ECFE15003E9567 /* GFTextField.swift */,
 				EE467B9523EA80C0007C9FE2 /* Assets.xcassets */,
 				EE467B9723EA80C0007C9FE2 /* LaunchScreen.storyboard */,
 				EE467B9A23EA80C0007C9FE2 /* Info.plist */,
+				EE705C2923F0E29900C20DE6 /* View Controllers */,
+				EE705C2A23F0E2A500C20DE6 /* Objects */,
+			);
+			path = GHFollowers;
+			sourceTree = "<group>";
+		};
+		EE705C2923F0E29900C20DE6 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
 				EE467BA023EA8726007C9FE2 /* SearchViewController.swift */,
 				EE14E01C23ED0AE0003E9567 /* FollowerListViewController.swift */,
 				EE467BA223EA877C007C9FE2 /* FaveListViewController.swift */,
+				EE705C3123F0E56A00C20DE6 /* GFAlertViewController.swift */,
 			);
-			path = GHFollowers;
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		EE705C2A23F0E2A500C20DE6 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				EE14E01823ECFB3A003E9567 /* GFButton.swift */,
+				EE14E01A23ECFE15003E9567 /* GFTextField.swift */,
+				EE705C2D23F0E32A00C20DE6 /* GFTitleLabel.swift */,
+				EE705C2F23F0E49100C20DE6 /* GFBodyLabel.swift */,
+			);
+			path = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,10 +173,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE705C3223F0E56A00C20DE6 /* GFAlertViewController.swift in Sources */,
 				EE14E01B23ECFE15003E9567 /* GFTextField.swift in Sources */,
 				EE467BA323EA877C007C9FE2 /* FaveListViewController.swift in Sources */,
 				EE14E01923ECFB3A003E9567 /* GFButton.swift in Sources */,
 				EE14E01D23ED0AE0003E9567 /* FollowerListViewController.swift in Sources */,
+				EE705C3023F0E49100C20DE6 /* GFBodyLabel.swift in Sources */,
+				EE705C2E23F0E32A00C20DE6 /* GFTitleLabel.swift in Sources */,
 				EE467BA123EA8726007C9FE2 /* SearchViewController.swift in Sources */,
 				EE467B8D23EA80BD007C9FE2 /* AppDelegate.swift in Sources */,
 				EE467B8F23EA80BD007C9FE2 /* SceneDelegate.swift in Sources */,
