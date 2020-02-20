@@ -16,6 +16,8 @@
 		EE467B9923EA80C0007C9FE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE467B9723EA80C0007C9FE2 /* LaunchScreen.storyboard */; };
 		EE467BA123EA8726007C9FE2 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE467BA023EA8726007C9FE2 /* SearchViewController.swift */; };
 		EE467BA323EA877C007C9FE2 /* FaveListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE467BA223EA877C007C9FE2 /* FaveListViewController.swift */; };
+		EE4E7D8823FE4B9C00C2155E /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4E7D8723FE4B9C00C2155E /* Follower.swift */; };
+		EE4E7D8A23FE4C6800C2155E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4E7D8923FE4C6800C2155E /* User.swift */; };
 		EE705C2E23F0E32A00C20DE6 /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE705C2D23F0E32A00C20DE6 /* GFTitleLabel.swift */; };
 		EE705C3023F0E49100C20DE6 /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE705C2F23F0E49100C20DE6 /* GFBodyLabel.swift */; };
 		EE705C3223F0E56A00C20DE6 /* GFAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE705C3123F0E56A00C20DE6 /* GFAlertViewController.swift */; };
@@ -33,6 +35,8 @@
 		EE467B9A23EA80C0007C9FE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE467BA023EA8726007C9FE2 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		EE467BA223EA877C007C9FE2 /* FaveListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaveListViewController.swift; sourceTree = "<group>"; };
+		EE4E7D8723FE4B9C00C2155E /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
+		EE4E7D8923FE4C6800C2155E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		EE705C2D23F0E32A00C20DE6 /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
 		EE705C2F23F0E49100C20DE6 /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
 		EE705C3123F0E56A00C20DE6 /* GFAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertViewController.swift; sourceTree = "<group>"; };
@@ -70,11 +74,21 @@
 		EE467B8B23EA80BD007C9FE2 /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				EE4E7D8623FE4B7D00C2155E /* Models */,
 				EE705C3423F11E9200C20DE6 /* Support */,
 				EE705C2923F0E29900C20DE6 /* Screens */,
 				EE705C2A23F0E2A500C20DE6 /* Custom Views */,
 			);
 			path = GHFollowers;
+			sourceTree = "<group>";
+		};
+		EE4E7D8623FE4B7D00C2155E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EE4E7D8723FE4B9C00C2155E /* Follower.swift */,
+				EE4E7D8923FE4C6800C2155E /* User.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		EE705C2923F0E29900C20DE6 /* Screens */ = {
@@ -189,6 +203,8 @@
 				EE705C3023F0E49100C20DE6 /* GFBodyLabel.swift in Sources */,
 				EE705C2E23F0E32A00C20DE6 /* GFTitleLabel.swift in Sources */,
 				EE467BA123EA8726007C9FE2 /* SearchViewController.swift in Sources */,
+				EE4E7D8A23FE4C6800C2155E /* User.swift in Sources */,
+				EE4E7D8823FE4B9C00C2155E /* Follower.swift in Sources */,
 				EE467B8D23EA80BD007C9FE2 /* AppDelegate.swift in Sources */,
 				EE467B8F23EA80BD007C9FE2 /* SceneDelegate.swift in Sources */,
 			);
@@ -328,7 +344,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PZN25HHY7;
-				INFOPLIST_FILE = GHFollowers/Info.plist;
+				INFOPLIST_FILE = "";
+				"INFOPLIST_FILE[sdk=*]" = GHFollowers/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -346,7 +363,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PZN25HHY7;
-				INFOPLIST_FILE = GHFollowers/Info.plist;
+				INFOPLIST_FILE = "";
+				"INFOPLIST_FILE[sdk=*]" = GHFollowers/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
