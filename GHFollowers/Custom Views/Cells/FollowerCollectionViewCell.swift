@@ -42,6 +42,5 @@ class FollowerCollectionViewCell: UICollectionViewCell {
             usernameLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -padding),
             usernameLabel.heightAnchor.constraint(equalToConstant: 20)
         ])
-    }
-    
+    }    
 }
