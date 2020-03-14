@@ -13,7 +13,7 @@ class FollowerListViewController: UIViewController {
     enum Section { case main }
     
     var username: String!
-    var followerss: [Follower]!
+    var followers: [Follower]!
     var collectionView: UICollectionView!
     var dataSource: UICollectionViewDiffableDataSource<Section, Follower>!
     var page = 1
@@ -54,8 +54,15 @@ class FollowerListViewController: UIViewController {
                 case .success(let followers):
                     if followers.count < 100 { self.hasMoreFollowers = false }
                     switch page {
-                    case 1: self.followerss = followers
-                    default: self.followerss.append(contentsOf: followers)
+                    case 1: self.followers = followers
+                    default: self.followers.append(contentsOf: followers)
+                    }
+                    if self.followers.isEmpty {
+                        let message = "This user doesn't have any followers. Go follow them. 😍"
+                        DispatchQueue.main.async {
+                            self.showEmptyStateView(with: message, in: self.view)
+                        }
+                        return
                     }
                     self.updateData()
                 case .failure(let error): self.presentGFAlertOnMainThread(title: "Bad Stuff", message: error.rawValue, buttonTitle: "Okay")
@@ -74,7 +81,7 @@ class FollowerListViewController: UIViewController {
     func updateData() {
         var snapshot = NSDiffableDataSourceSnapshot<Section, Follower>()
         snapshot.appendSections([.main])
-        snapshot.appendItems(followerss)
+        snapshot.appendItems(followers)
         DispatchQueue.main.async {
             self.dataSource.apply(snapshot, animatingDifferences: true)
         }
