@@ -28,6 +28,7 @@
 		EEDBAC7724049A4500390A5C /* GFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDBAC7624049A4500390A5C /* GFError.swift */; };
 		EEDBAC7B2404C26C00390A5C /* FollowerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDBAC7A2404C26C00390A5C /* FollowerCollectionViewCell.swift */; };
 		EEDBAC7D2404C2F000390A5C /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDBAC7C2404C2F000390A5C /* GFAvatarImageView.swift */; };
+		EEEA218C24381BDB00C33F26 /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEA218B24381BDB00C33F26 /* UserInfoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		EEDBAC7624049A4500390A5C /* GFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFError.swift; sourceTree = "<group>"; };
 		EEDBAC7A2404C26C00390A5C /* FollowerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCollectionViewCell.swift; sourceTree = "<group>"; };
 		EEDBAC7C2404C2F000390A5C /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
+		EEEA218B24381BDB00C33F26 /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				EE467BA023EA8726007C9FE2 /* SearchViewController.swift */,
 				EE14E01C23ED0AE0003E9567 /* FollowerListViewController.swift */,
 				EE467BA223EA877C007C9FE2 /* FaveListViewController.swift */,
+				EEEA218B24381BDB00C33F26 /* UserInfoVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				EE4E7D8823FE4B9C00C2155E /* Follower.swift in Sources */,
 				EE467B8D23EA80BD007C9FE2 /* AppDelegate.swift in Sources */,
 				EE467B8F23EA80BD007C9FE2 /* SceneDelegate.swift in Sources */,
+				EEEA218C24381BDB00C33F26 /* UserInfoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
