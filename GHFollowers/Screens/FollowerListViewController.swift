@@ -23,6 +23,7 @@ class FollowerListViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         configureViewController()
         configureCollectionView()
         getFollowers(username: username, page: page)
