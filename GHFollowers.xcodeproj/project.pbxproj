@@ -33,6 +33,7 @@
 		EEDBAC7B2404C26C00390A5C /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDBAC7A2404C26C00390A5C /* FollowerCell.swift */; };
 		EEDBAC7D2404C2F000390A5C /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDBAC7C2404C2F000390A5C /* GFAvatarImageView.swift */; };
 		EEEA218C24381BDB00C33F26 /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEA218B24381BDB00C33F26 /* UserInfoVC.swift */; };
+		EEEFFAC82561E6E300605910 /* GFItemInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEFFAC72561E6E300605910 /* GFItemInfoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		EEDBAC7A2404C26C00390A5C /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		EEDBAC7C2404C2F000390A5C /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		EEEA218B24381BDB00C33F26 /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
+		EEEFFAC72561E6E300605910 /* GFItemInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +203,7 @@
 				EE705C3123F0E56A00C20DE6 /* GFAlertViewController.swift */,
 				EEB01AAA241D945600C47A46 /* GFEmptyStateView.swift */,
 				EE96043B255F36C7001CE3F0 /* GFUserInfoHeaderVC.swift */,
+				EEEFFAC72561E6E300605910 /* GFItemInfoVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				EE467BA323EA877C007C9FE2 /* FaveListViewController.swift in Sources */,
 				EEDBAC7224048C4A00390A5C /* NetworkManager.swift in Sources */,
 				EE14E01923ECFB3A003E9567 /* GFButton.swift in Sources */,
+				EEEFFAC82561E6E300605910 /* GFItemInfoVC.swift in Sources */,
 				EE960442255F3D5E001CE3F0 /* Constants.swift in Sources */,
 				EE14E01D23ED0AE0003E9567 /* FollowerListViewController.swift in Sources */,
 				EE705C3023F0E49100C20DE6 /* GFBodyLabel.swift in Sources */,
