@@ -43,6 +43,9 @@ class FollowerListViewController: UIViewController {
     func configureViewController() {
         view.backgroundColor = .systemBackground
         navigationController?.navigationBar.prefersLargeTitles = true
+        
+        let favoriteButton = UIBarButtonItem(image: UIImage(systemName: "star")!, style: .plain, target: self, action: #selector(favoriteButtonTapped))
+        navigationItem.rightBarButtonItem = favoriteButton
     }
     
     func configureCollectionView() {
@@ -99,6 +102,10 @@ class FollowerListViewController: UIViewController {
         DispatchQueue.main.async {
             self.dataSource.apply(snapshot, animatingDifferences: true)
         }
+    }
+    
+    @objc func favoriteButtonTapped() {
+        
     }
 }
 
