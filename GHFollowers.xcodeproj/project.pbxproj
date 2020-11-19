@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE06F58B2565E6E30044CC27 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE06F58A2565E6E30044CC27 /* PersistenceManager.swift */; };
 		EE14E01923ECFB3A003E9567 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE14E01823ECFB3A003E9567 /* GFButton.swift */; };
 		EE14E01B23ECFE15003E9567 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE14E01A23ECFE15003E9567 /* GFTextField.swift */; };
 		EE14E01D23ED0AE0003E9567 /* FollowerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE14E01C23ED0AE0003E9567 /* FollowerListViewController.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE06F58A2565E6E30044CC27 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 		EE14E01823ECFB3A003E9567 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		EE14E01A23ECFE15003E9567 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 		EE14E01C23ED0AE0003E9567 /* FollowerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListViewController.swift; sourceTree = "<group>"; };
@@ -232,6 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				EEDBAC7124048C4A00390A5C /* NetworkManager.swift */,
+				EE06F58A2565E6E30044CC27 /* PersistenceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -355,6 +358,7 @@
 				EED695A3240C9F2D00220B1A /* UIHelper.swift in Sources */,
 				EE96043F255F372D001CE3F0 /* GFSecondaryTitleLabel.swift in Sources */,
 				EEB01AAB241D945600C47A46 /* GFEmptyStateView.swift in Sources */,
+				EE06F58B2565E6E30044CC27 /* PersistenceManager.swift in Sources */,
 				EEDBAC7D2404C2F000390A5C /* GFAvatarImageView.swift in Sources */,
 				EE4E7D8823FE4B9C00C2155E /* Follower.swift in Sources */,
 				EE923CA12563262700A27510 /* DateExt.swift in Sources */,
