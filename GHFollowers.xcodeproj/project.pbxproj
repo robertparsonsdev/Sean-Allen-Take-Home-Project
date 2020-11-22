@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE025282256B0ED200E7047A /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE025281256B0ED200E7047A /* FavoriteCell.swift */; };
 		EE06F58B2565E6E30044CC27 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE06F58A2565E6E30044CC27 /* PersistenceManager.swift */; };
 		EE14E01923ECFB3A003E9567 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE14E01823ECFB3A003E9567 /* GFButton.swift */; };
 		EE14E01B23ECFE15003E9567 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE14E01A23ECFE15003E9567 /* GFTextField.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE025281256B0ED200E7047A /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 		EE06F58A2565E6E30044CC27 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 		EE14E01823ECFB3A003E9567 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		EE14E01A23ECFE15003E9567 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
@@ -253,6 +255,7 @@
 			isa = PBXGroup;
 			children = (
 				EEDBAC7A2404C26C00390A5C /* FollowerCell.swift */,
+				EE025281256B0ED200E7047A /* FavoriteCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 				EEEFFACE2561EBC600605910 /* GFFollowerItemVC.swift in Sources */,
 				EE7BA65A25606B47005126D2 /* GFItemInfoView.swift in Sources */,
 				EE467BA123EA8726007C9FE2 /* SearchViewController.swift in Sources */,
+				EE025282256B0ED200E7047A /* FavoriteCell.swift in Sources */,
 				EEDBAC7B2404C26C00390A5C /* FollowerCell.swift in Sources */,
 				EE96043C255F36C7001CE3F0 /* GFUserInfoHeaderVC.swift in Sources */,
 				EEDBAC7724049A4500390A5C /* GFError.swift in Sources */,
