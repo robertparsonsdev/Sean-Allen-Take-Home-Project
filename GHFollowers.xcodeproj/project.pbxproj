@@ -181,6 +181,7 @@
 			children = (
 				EE7BA65925606B47005126D2 /* GFItemInfoView.swift */,
 				EE122C0F256D6EBE00D11454 /* GFAlertContainerView.swift */,
+				EEB01AAA241D945600C47A46 /* GFEmptyStateView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -223,10 +224,9 @@
 			isa = PBXGroup;
 			children = (
 				EE705C3123F0E56A00C20DE6 /* GFAlertViewController.swift */,
-				EEB01AAA241D945600C47A46 /* GFEmptyStateView.swift */,
 				EE96043B255F36C7001CE3F0 /* GFUserInfoHeaderVC.swift */,
-				EEEFFAD02561EC2A00605910 /* ItemInfoVCs */,
 				EE122C12256D76A300D11454 /* GFDataLoadingVC.swift */,
+				EEEFFAD02561EC2A00605910 /* ItemInfoVCs */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
