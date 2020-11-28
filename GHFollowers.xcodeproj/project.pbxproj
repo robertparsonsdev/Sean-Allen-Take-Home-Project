@@ -26,6 +26,7 @@
 		EE705C3023F0E49100C20DE6 /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE705C2F23F0E49100C20DE6 /* GFBodyLabel.swift */; };
 		EE705C3223F0E56A00C20DE6 /* GFAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE705C3123F0E56A00C20DE6 /* GFAlertViewController.swift */; };
 		EE7BA65A25606B47005126D2 /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7BA65925606B47005126D2 /* GFItemInfoView.swift */; };
+		EE81763F2572B40100815555 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE81763E2572B40100815555 /* UIViewExt.swift */; };
 		EE923CA12563262700A27510 /* DateExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE923CA02563262700A27510 /* DateExt.swift */; };
 		EE923CA42563264400A27510 /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE923CA32563264400A27510 /* StringExt.swift */; };
 		EE96043C255F36C7001CE3F0 /* GFUserInfoHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE96043B255F36C7001CE3F0 /* GFUserInfoHeaderVC.swift */; };
@@ -67,6 +68,7 @@
 		EE705C2F23F0E49100C20DE6 /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
 		EE705C3123F0E56A00C20DE6 /* GFAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertViewController.swift; sourceTree = "<group>"; };
 		EE7BA65925606B47005126D2 /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
+		EE81763E2572B40100815555 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		EE923CA02563262700A27510 /* DateExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExt.swift; sourceTree = "<group>"; };
 		EE923CA32563264400A27510 /* StringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
 		EE96043B255F36C7001CE3F0 /* GFUserInfoHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFUserInfoHeaderVC.swift; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 				EEB01AA2241D5F7200C47A46 /* UIViewControllerExt.swift */,
 				EE923CA02563262700A27510 /* DateExt.swift */,
 				EE923CA32563264400A27510 /* StringExt.swift */,
+				EE81763E2572B40100815555 /* UIViewExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -364,6 +367,7 @@
 				EE467BA323EA877C007C9FE2 /* FaveListViewController.swift in Sources */,
 				EEDBAC7224048C4A00390A5C /* NetworkManager.swift in Sources */,
 				EE122C13256D76A300D11454 /* GFDataLoadingVC.swift in Sources */,
+				EE81763F2572B40100815555 /* UIViewExt.swift in Sources */,
 				EE14E01923ECFB3A003E9567 /* GFButton.swift in Sources */,
 				EEEFFAC82561E6E300605910 /* GFItemInfoVC.swift in Sources */,
 				EE960442255F3D5E001CE3F0 /* Constants.swift in Sources */,
